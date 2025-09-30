@@ -52,4 +52,7 @@ A Rust reimplementation of Hyfetch wih a focus on speed.}
 %{_bindir}/mirafetch
 
 %changelog
+* Tue Sep 30 2025 Osama Albahrani <osalbahr@gmail.com> 0.1.0-1
+- new package built with tito
+
 %autochangelog

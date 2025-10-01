@@ -14,7 +14,7 @@ License:        EUPL-1.2
 # LICENSE.dependencies contains a full license breakdown
 
 URL:            https://github.com/ArgentumCation/mirafetch
-Source:         https://github.com/ArgentumCation/mirafetch
+Source:         %{url}/archive/refs/tags/v%{version}.tar.gz
 # Automatically generated patch to strip dependencies and normalize metadata
 Patch:          mirafetch-fix-metadata-auto.diff
 

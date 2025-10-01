@@ -9,7 +9,6 @@ Version:        0.1.0
 Release:        %autorelease
 Summary:        Rust reimplementation of Hyfetch wih a focus on speed
 
-SourceLicense:  EUPL-1.2
 License:        EUPL-1.2
 # LICENSE.dependencies contains a full license breakdown
 

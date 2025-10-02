@@ -1,7 +1,7 @@
-diff --git a/mirafetch-0.1.0/Cargo.toml b/mirafetch-0.1.0/Cargo.toml
+diff --git a/Cargo.toml b/Cargo.toml
 index 04c22c8..fd0fd95 100644
---- a/mirafetch-0.1.0/Cargo.toml
-+++ b/mirafetch-0.1.0/Cargo.toml
+--- a/Cargo.toml
++++ b/Cargo.toml
 @@ -39,21 +39,6 @@ serde_with="3.4.0"
  clap = { version = "4.5.4", features = ["derive"] }
  smallvec = "1.13.2"

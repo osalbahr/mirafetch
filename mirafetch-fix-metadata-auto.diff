@@ -1,29 +1,26 @@
---- mirafetch-0.1.0/Cargo.toml	2025-09-30T14:54:58.816734+00:00
-+++ mirafetch-0.1.0/Cargo.toml	2025-09-30T15:03:40.735520+00:00
-@@ -45,21 +45,6 @@
+diff --git a/mirafetch-0.1.0/Cargo.toml b/mirafetch-0.1.0/Cargo.toml
+index 04c22c8..fd0fd95 100644
+--- a/mirafetch-0.1.0/Cargo.toml
++++ b/mirafetch-0.1.0/Cargo.toml
+@@ -39,21 +39,6 @@ serde_with="3.4.0"
+ clap = { version = "4.5.4", features = ["derive"] }
  smallvec = "1.13.2"
- platform-info="2.0"
  
 -[target.'cfg(windows)'.dependencies]
--winreg="0.52"
--wmi={default-features=false, version="0.14"}
--windows={version="0.59.0", features=[
+-winreg="0.50.0"
+-wmi={default-features=false, version="0.13.1"}
+-windows={version="*", features=[
 -    "Win32_System_SystemInformation",
 -    "Win32_Networking_WinSock",
 -    "Win32_NetworkManagement_IpHelper",
 -    "Win32_NetworkManagement_Ndis",
 -], default-features=false}
--winsafe={version="0.0", features=["dwm"], default-features=false}
+-winsafe={version="0.0.17", features=["dwm"], default-features=false}
 -
 -[target.'cfg(target_os = "macos")'.dependencies]
--sysctl="0.6.0"
--plist="1.7.0"
+-sysctl="0.5.4"
+-plist="1.5.0"
 -
  
  [target.'cfg(target_os = "linux")'.dependencies]
- pci-ids="0.2"
-@@ -83,3 +68,4 @@
- # [lib]
- # name="mirafetch"
- # path="src/lib.rs"
-+
+ platform-info="2.0.1"

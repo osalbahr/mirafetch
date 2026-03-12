@@ -18,6 +18,8 @@ A Rust reimplementation of Hyfetch wih a focus on speed
 ```
 brew tap ArgentumCation/mirafetch https://github.com/ArgentumCation/mirafetch
 brew install [--head] mirafetch
+```
+
 ### Copr (Fedora, rpm-based)
 
 ```
